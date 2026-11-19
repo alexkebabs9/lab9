@@ -1,30 +1,32 @@
+name: Lab 9 Basic Tests
 
 on:
   push:
-  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
   lab9-basic-tests:
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Test 1 - Valid Data
+      - name: Run test 1
         run: |
-          result=$(bash validate-data.sh "Pearse McCarthy" "0831122334")
+          result=$(bash validate-data.sh "pearse mccarthy" "0831122334")
           echo "$result"
-          echo "$result" = "PASS"
+          test "$result" = "PASS"
 
-      - name: Test 2  - Invalid Data
+      - name: Run test 2
         run: |
-          result=$(bash validate-data.sh "Pearse McCarthy" "08311223344")
+          result=$(bash validate-data.sh "pearse mccarthy" "08311223344")
           echo "$result"
-          echo "$result" = "FAIL"
+          test "$result" = "FAIL"
 
-      - name: Test 3 - Invalid Data
+      - name: Run test 3
         run: |
-          result=$(bash validate-data.sh "Pearse McCarthyT" "0831122334")
+          result=$(bash validate-data.sh "pearse mccarthyy" "0831122334")
           echo "$result"
-          echo "$result" = "FAIL"
+          test "$result" = "FAIL"
