@@ -1,0 +1,262 @@
+    1  ls
+    2  nano mongo.sh
+    3  mongo.sh
+    4  -bash mongo.sh
+    5  curl mango.sh
+    6  ls
+    7  mongopkg="mongodb-mongosh_2.12.0_amd64.deb"
+    8  mongodlurl="https://downloads.mongodb.com/compass/$mongopkg"
+    9  echo -e "\nDownloading mongopackage: $mongopkg from:"
+   10  echo -e "$mongodlurl \n"
+   11  # curl -o name_to_save_as URL
+   12  curl -o $mongopkg $mongodlurl
+   13  echo -e "\n\nInstalling package: $mongopkg :\n"
+   14  # sudo dpkg -i DEB_PACKAGE
+   15  sudo dpkg -i $mongopkg
+   16  currentip=$(curl icanhazip.com)
+   17  echo -e "\n\n*********************************************************"
+   18  echo -e "You will need add your current address: $currentip"
+   19  echo "to permitted list on the 'Network Access' page "
+   20  echo "on your MongoDB Atlas page"
+   21  echo -e "******
+   22  #!/bin/bash
+   23  #Bash Script to download, install Mogoshell and show current ip
+   24  # version:Sept 2026
+   25  mongopkg="mongodb-mongosh_2.12.0_amd64.deb"
+   26  mongodlurl="https://downloads.mongodb.com/compass/$mongopkg"
+   27  echo -e "\nDownloading mongopackage: $mongopkg from:"
+   28  echo -e "$mongodlurl \n"
+   29  # curl -o name_to_save_as URL
+   30  curl -o $mongopkg $mongodlurl
+   31  echo -e "\n\nInstalling package: $mongopkg :\n"
+   32  # sudo dpkg -i DEB_PACKAGE
+   33  sudo dpkg -i $mongopkg
+   34  currentip=$(curl icanhazip.com)
+   35  echo -e "\n\n*********************************************************"
+   36  echo -e "You will need add your current address: $currentip"
+   37  echo "to permitted list on the 'Network Access' page "
+   38  echo "on your MongoDB Atlas page"
+   39  echo -e "*********************************************************\n\n"
+   40  mongosh "mongodb+srv://clusterlabwk2.sfgzkd0.mongodb.net/" --apiVersion 1 --username alexkebabs9_db_user
+   41  mongopkg="mongodb-mongosh_2.12.0_amd64.deb"
+   42  mongodlurl="https://downloads.mongodb.com/compass/$mongopkg"
+   43  echo -e "\nDownloading mongopackage: $mongopkg from:"
+   44  echo -e "$mongodlurl \n"
+   45  # curl -o name_to_save_as URL
+   46  curl -o $mongopkg $mongodlurl
+   47  echo -e "\n\nInstalling package: $mongopkg :\n"
+   48  # sudo dpkg -i DEB_PACKAGE
+   49  sudo dpkg -i $mongopkg
+   50  currentip=$(curl icanhazip.com)
+   51  echo -e "\n\n*********************************************************"
+   52  echo -e "You will need add your current address: $currentip"
+   53  echo "to permitted list on the 'Network Access' page "
+   54  echo "on your MongoDB Atlas page"
+   55  echo -e "*********************************************************\n\n"
+   56  l
+   57  gh --version
+   58  gh auth login
+   59  gh auth status
+   60  ls
+   61  git mkdir CA1
+   62  git init
+   63  git mkdir CA1
+   64  mkdir CA1
+   65  cd ca1
+   66  cd CA1/
+   67  git clone git@github.com:pearse1104/X00227300.git
+   68  ls
+   69  git clone git@github.com:pearse1104/X00227300.git
+   70  ls
+   71  git remote add origin git@github.com:pearse1104/X00227300.git
+   72  ls
+   73  git clone git@github.com:pearse1104/X00227300.git
+   74  ls
+   75  cd
+   76  ;s
+   77  ls
+   78  cd CA1
+   79  git config --global user.name "alexkebabs9"
+   80  git config --global user.email "alexpdaly03@gmail.com"
+   81  git clone git@github.com:pearse1104/X00227300.git
+   82  cd
+   83  ls
+   84  cd 
+   85  ls
+   86  ls -Rl
+   87  git clone git@github.com:pearse1104/X00227300.git
+   88  cd
+   89  ls
+   90  git clone git@github.com:pearse1104/X00227300.git
+   91  git init
+   92  git clone git@github.com:pearse1104/X00227300.git
+   93  git --config -l
+   94  git config -l
+   95  git config --global user.email "alekebabs9@gmail.com"
+   96  git clone git@github.com:pearse1104/X00227300.git
+   97  docker --version
+   98  docker info
+   99  docker run --name redis-tutorial -p 6379:6379 -d redis:latest
+  100  docker ps
+  101  docker exec -it redis-tutorial redis-cli
+  102  gh --version
+  103  gh auth login
+  104  gh auth status
+  105  git config --global user.name "alexkebabs9"
+  106  git config --global user.email "alexpdaly03@gmail.com
+  107  git config --global user.email "alexpdaly03@gmail.com"
+  108  nana q1.sh
+  109  nano q1.sh
+  110  chmod +x q1.sh ./q1.sh
+  111  gh repo view lab6 --json name,visibility
+  112  bash q1.sh
+  113  gh repo view lab6 --json name,visibility
+  114  nano q2.sh
+  115  bash q2.sh
+  116  mkdir wk9
+  117  gh create repo week9lab --public
+  118  gh repo create week9lab --public
+  119  gh repo create lab9 --public
+  120  git init
+  121  gh label create EPIC --color orange
+  122  gh repo clone alexkebabs9/lab9
+  123  gh repo clone https://github.com/alexkebabs9/lab9.git
+  124  gh repo clone git@github.com:alexkebabs9/lab9.git
+  125  gh label create EPIC --color orange
+  126  cd lab9
+  127  gh repo clone git@github.com:alexkebabs9/lab9.git
+  128  gh repo clone https://github.com/alexkebabs9/lab9.git
+  129  gh label create EPIC --color orange
+  130  gh label create EPIC --color ORANGE
+  131  gh label create Epic --color FF8000
+  132  gh issue create --title "do lab9"
+  133  gh issue create --title "do lab9" --label Epic
+  134  git remote add origin git@github.com:alexkebabs9/lab9.git
+  135  gh issue delete {1 git@github.com:alexkebabs9/lab9.git}
+  136  gh issue create --title "do lab9" --label Epic
+  137  gh issue delete
+  138  gh issue view
+  139  git add .
+  140  git add.
+  141  git add .
+  142  gh issue create --title "do lab9" --label Epic --assignee @me
+  143  gh issue create --title "create validate-data script" --label enhancement --assignee @me
+  144  nana validate-data.sh
+  145  nano validate-data.sh
+  146  chmod +x validate-data.sh 
+  147  bash validate-data.sh "Alex Daly" "0838223355"
+  148  cat validate-data.sh 
+  149  bash validate-data.sh "Alex Daly" "083822335533"
+  150  bash validate-data.sh "Alex Daly" "08382233553"
+  151  bash validate-data.sh "Alex Daly" "0838223355"
+  152  bash validate-data.sh "PEARSE MCARCTHY" "0838223355"
+  153  bash validate-data.sh "Pearse McCarthy" "0831122334"
+  154  bash validate-data.sh "Pearse McCarthy" "08311223344"
+  155  bash validate-data.sh "Pearse McCarthyt" "0831122334"
+  156  gh issue create --title "create yaml test script" --label enhancement --assignee @me
+  157  mkdir -p github/workflows
+  158  nano .github/workflows/basictests.yml
+  159  cd
+  160  cd lab9
+  161  ls
+  162  cd github
+  163  ls
+  164  cd workflows
+  165  nano basictests.yml
+  166  cat basictests.yml 
+  167  nano basictests.yml
+  168  cat basictests.yml 
+  169  git add .
+  170  git commit -m "Add Validation script and github actions tetst"
+  171  git branch -m Main
+  172  git branch -M main
+  173  git push -u origin main
+  174  git remote set-url origin git@github.com:alexkebabs9/lab9.git
+  175  git push -u origin main
+  176  git push -u git@github.com:alexkebabs9/lab9.git
+  177  git push -u https://github.com/alexkebabs9/lab9.git
+  178  git remote add https://github.com/alexkebabs9/lab9.git
+  179  git remote add origin https://github.com/alexkebabs9/lab9.git
+  180  git remote add origin git@github.com:alexkebabs9/lab9.git
+  181  git remote rm origin
+  182  git remote add origin git@github.com:alexkebabs9/lab9.git
+  183  git push -u origin main
+  184  git remote add origin git@github.com:alexkebabs9/lab9.git
+  185  git push -u git@github.com:alexkebabs9/l
+  186  git push origin main
+  187  cd ../..
+  188  ls -l
+  189  ls -la
+  190  ls github
+  191  mv github/ .github
+  192  ls
+  193  ls lab9
+  194  ls -al lab9
+  195  rm -rf lab9
+  196  ls
+  197  ls -la
+  198  git remote rm origin
+  199  git remote add origin git@github.com:alexkebabs9/lab9.git
+  200  git add .
+  201  git commit . -m"ver1"
+  202  git push origin main
+  203  cd ..
+  204  mv lab9 lab99
+  205  git clone git@github.com:alexkebabs9/lab9.git
+  206  ls .ssh
+  207  git clone https://github.com/alexkebabs9/lab9.git
+  208  cd lab9
+  209  ls -la
+  210  mv ../lab99/.github .
+  211  mv ../lab99/validate-data.sh .
+  212  ls
+  213  git add.
+  214  git add .
+  215  git commit . -m"ver1"
+  216  git push origin main
+  217  git remote rm origin
+  218  git remote add origin https://github.com/alexkebabs9/lab9.git
+  219  git push origin main
+  220  git remote rm origin
+  221  ssh-keygen -t ed25519 -C "alexkebabs9@gmail.com"
+  222  cat id_ed25519.pub
+  223  cat /home/alexpdaly03/.ssh/id_ed25519.pub
+  224  git remote rm origin
+  225  git remote add origin git@github.com:alexkebabs9/lab9.git
+  226  git add .
+  227  git commit -m "ver1"
+  228  ls
+  229  git push origin main
+  230  nano .github/workflows/validate-data.yml
+  231  nano .github/workflows/basictests.yml
+  232  git add .
+  233  git commit -m "fixed"
+  234  git push origin main
+  235  docker run --name cassandra-lab -p 9042:9042 -d cassandra:latest
+  236  docker exec -it cassandra-lab cqlsh
+  237  docker ps
+  238  docker exec -it cassandra-lab cqlsh
+  239  docker rm -f cassandra-lab
+  240  ls
+  241  cd lab9
+  242  nano .github/workflows/basictests.yml
+  243  git add .
+  244  git commit -m "fixed 1"
+  245  git push origin main
+  246  nano .github/workflows/basictests.y
+  247  nano .github/workflows/basictests.yml
+  248  gh issue list
+  249  gh issue close 6
+  250  gh issue close 7
+  251  gh issue create --title "create lab9 project view" --label "enhancement" --assignee "@me" --body "Create a GitHub project with a table view containing Label, Title and Assignee."
+  252  gh issue create --title "create test branch" --label "enhancement" --assignee "@me" --body "Create a test branch and update the GitHub Actions workflow."
+  253  git switch -c test
+  254  nano validate-data.sh
+  255  git add .
+  256  git commit -m "Increase length to 20"
+  257  git push -u origin test
+  258  nano .github/workflows/basictests.yml
+  259  git add .
+  260  git commit -m "Enable GitHub Actions on main and test branches"
+  261  git push origin test
+  262  history > history.txt
